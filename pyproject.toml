@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ritn3d-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Model Context Protocol server for Ritn3D — give Claude and other AI agents tools to validate floor plans, check share links, estimate render complexity, and convert units for 3D printing of architectural models."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -48,6 +48,12 @@ dev = ["pytest>=7", "pytest-asyncio"]
 Homepage = "https://github.com/printplan3d/ritn3d-mcp"
 Issues = "https://github.com/printplan3d/ritn3d-mcp/issues"
 Product = "https://www.ritn3d.com"
+
+# mcpName — declares ownership for the MCP Registry. The publisher CLI
+# reads this to confirm the PyPI package is the canonical artifact for
+# the server name `io.github.printplan3d/ritn3d-mcp`.
+[project.entry-points.mcp]
+name = "io.github.printplan3d/ritn3d-mcp"
 
 [project.scripts]
 ritn3d-mcp = "ritn3d_mcp.__main__:main"

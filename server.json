@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.printplan3d/ritn3d-mcp",
+  "description": "MCP server giving Claude/Cursor/Cline tools to validate floor plans, estimate complexity, check share links, validate GLBs, and convert units for Ritn3D 3D-printing workflows.",
+  "repository": {
+    "url": "https://github.com/printplan3d/ritn3d-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "ritn3d-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "python"
+    }
+  ]
+}
