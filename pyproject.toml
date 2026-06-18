@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ritn3d-mcp"
+version = "0.1.0"
+description = "Model Context Protocol server for Ritn3D — give Claude and other AI agents tools to validate floor plans, check share links, estimate render complexity, and convert units for 3D printing of architectural models."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Ritn3D Team" }]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "anthropic",
+    "claude",
+    "floor-plan",
+    "3d-modeling",
+    "architecture",
+    "3d-printing",
+    "ritn3d",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.0,<2.0",
+    "httpx>=0.27",
+    "pydantic>=2.0",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pytest-asyncio"]
+
+[project.urls]
+Homepage = "https://github.com/printplan3d/ritn3d-mcp"
+Issues = "https://github.com/printplan3d/ritn3d-mcp/issues"
+Product = "https://www.ritn3d.com"
+
+[project.scripts]
+ritn3d-mcp = "ritn3d_mcp.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
