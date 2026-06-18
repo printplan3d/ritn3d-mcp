@@ -1,5 +1,8 @@
 # ritn3d-mcp
 
+<!-- mcp-name: io.github.printplan3d/ritn3d-mcp -->
+
+
 > A Model Context Protocol (MCP) server that gives Claude, Claude Code,
 > Cursor, Cline, or any other MCP-compatible AI agent the lightweight
 > tools needed to **prepare a floor plan for Ritn3D** and **interpret

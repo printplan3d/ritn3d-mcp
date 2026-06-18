@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: ritn3d-mcp
-Version: 0.1.1
+Version: 0.1.2
 Summary: Model Context Protocol server for Ritn3D — give Claude and other AI agents tools to validate floor plans, check share links, estimate render complexity, and convert units for 3D printing of architectural models.
 Author: Ritn3D Team
 License: MIT
@@ -33,6 +33,9 @@ Requires-Dist: pytest-asyncio; extra == "dev"
 Dynamic: license-file
 
 # ritn3d-mcp
+
+<!-- mcp-name: io.github.printplan3d/ritn3d-mcp -->
+
 
 > A Model Context Protocol (MCP) server that gives Claude, Claude Code,
 > Cursor, Cline, or any other MCP-compatible AI agent the lightweight

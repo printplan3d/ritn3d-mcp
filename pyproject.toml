@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ritn3d-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "Model Context Protocol server for Ritn3D — give Claude and other AI agents tools to validate floor plans, check share links, estimate render complexity, and convert units for 3D printing of architectural models."
 readme = "README.md"
 requires-python = ">=3.10"
