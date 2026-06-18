@@ -1,12 +1,13 @@
 Metadata-Version: 2.4
 Name: ritn3d-mcp
-Version: 0.1.0
+Version: 0.1.1
 Summary: Model Context Protocol server for Ritn3D — give Claude and other AI agents tools to validate floor plans, check share links, estimate render complexity, and convert units for 3D printing of architectural models.
 Author: Ritn3D Team
 License: MIT
 Project-URL: Homepage, https://github.com/printplan3d/ritn3d-mcp
 Project-URL: Issues, https://github.com/printplan3d/ritn3d-mcp/issues
 Project-URL: Product, https://www.ritn3d.com
+Project-URL: MCP Registry, https://registry.modelcontextprotocol.io/v0/servers/io.github.printplan3d/ritn3d-mcp
 Keywords: mcp,model-context-protocol,anthropic,claude,floor-plan,3d-modeling,architecture,3d-printing,ritn3d
 Classifier: Development Status :: 4 - Beta
 Classifier: Framework :: AsyncIO

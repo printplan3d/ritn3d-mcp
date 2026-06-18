@@ -48,12 +48,7 @@ dev = ["pytest>=7", "pytest-asyncio"]
 Homepage = "https://github.com/printplan3d/ritn3d-mcp"
 Issues = "https://github.com/printplan3d/ritn3d-mcp/issues"
 Product = "https://www.ritn3d.com"
-
-# mcpName — declares ownership for the MCP Registry. The publisher CLI
-# reads this to confirm the PyPI package is the canonical artifact for
-# the server name `io.github.printplan3d/ritn3d-mcp`.
-[project.entry-points.mcp]
-name = "io.github.printplan3d/ritn3d-mcp"
+"MCP Registry" = "https://registry.modelcontextprotocol.io/v0/servers/io.github.printplan3d/ritn3d-mcp"
 
 [project.scripts]
 ritn3d-mcp = "ritn3d_mcp.__main__:main"
